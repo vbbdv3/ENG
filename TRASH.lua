@@ -14,6 +14,31 @@ wait(1)
 end
 end)
 
+local mod = main:Button("Potions", function()
+_G.Potions_enabled = not _G.Potions_enabled
+
+while _G.Potions_enabled do
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.PlayerGui.BiloShop.Shop.ScrollingFrame.Potions.DoubleRoll2
+}
+
+game:GetService("ReplicatedStorage").Events.BuyPotions:FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.PlayerGui.BiloShop.Shop.ScrollingFrame.Potions.DoubleLuck2
+}
+
+game:GetService("ReplicatedStorage").Events.BuyPotions:FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.PlayerGui.BiloShop.Shop.ScrollingFrame.Potions.DoubleUpgradeLuck2
+}
+
+game:GetService("ReplicatedStorage").Events.BuyPotions:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
 local mod = main:Button("SendRebirthRequest", function()
 _G.SendRebirthRequest_enabled = not _G.SendRebirthRequest_enabled
 
