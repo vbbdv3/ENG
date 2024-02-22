@@ -30,6 +30,6 @@ _G.SendAscensionRequest_enabled = not _G.SendAscensionRequest_enabled
 while _G.SendAscensionRequest_enabled do
 game:GetService("ReplicatedStorage").Events.SendAscensionRequest:FireServer()
 
-wait(1)
+wait(0.1)
 end
 end)
