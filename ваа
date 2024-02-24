@@ -31,6 +31,29 @@ game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpac
 
 
 wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "Antari",
+    [3] = "E",
+    [4] = "Release",
+    [6] = CFrame.new(-2390.9423828125, 10.646651268005371, 3488.95654296875) * CFrame.Angles(3.141592502593994, 1.1512047052383423, -3.141592502593994)
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+
+wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "Antari",
+    [3] = "Z",
+    [4] = "Release",
+    [6] = CFrame.new(-2390.9423828125, 10.646651268005371, 3488.95654296875) * CFrame.Angles(3.141592502593994, 1.1512047052383423, -3.141592502593994)
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+
+
+wait(1)
 end
 end)
 
