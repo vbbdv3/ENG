@@ -65,6 +65,14 @@ local args = {
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(1)
+local args = {
+    [1] = "Specs",
+    [2] = "Nine Tails Power",
+    [3] = Vector3.new(515.1322631835938, 39.22695541381836, -6776.24462890625)
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+
 end
 end)
 
