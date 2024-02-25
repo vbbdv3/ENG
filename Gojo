@@ -27,7 +27,7 @@ _G.QUEST_enabled = not _G.QUEST_enabled
 while _G.QUEST_enabled do
 local args = {
     [1] = "InteractControl",
-    [2] = "Quest Giver 9"
+    [2] = "Quest Giver 21"
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
