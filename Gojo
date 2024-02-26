@@ -6,7 +6,6 @@ local main = libary:CreateWindow("GojohUnsealed")
 
 local mod = main:Button("GojohUnsealed", function()
 _G.RollEvent_enabled = not _G.RollEvent_enabled
-
 while _G.RollEvent_enabled do
 local args = {
     [1] = "SkillsControl",
@@ -15,7 +14,6 @@ local args = {
     [4] = "Release",
     [6] = CFrame.new(-2031.69873046875, 66.31632995605469, -2790.242431640625) * CFrame.Angles(-3.141592502593994, 1.084824562072754, 3.141592502593994)
 }
-
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(1)
 end
@@ -23,9 +21,7 @@ end)
 
 local mod = main:Button("GojohUnsealed", function()
 _G.RollEvent_enabled = not _G.RollEvent_enabled
-
 while _G.RollEvent_enabled do
-
 local args = {
     [1] = "SkillsControl",
     [2] = "GojohUnsealed",
@@ -33,7 +29,6 @@ local args = {
     [4] = "Release",
     [6] = CFrame.new(-2031.69873046875, 66.31632995605469, -2790.242431640625) * CFrame.Angles(-3.141592502593994, 1.084824562072754, 3.141592502593994)
 }
-
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(1)
 local args = {
@@ -43,7 +38,6 @@ local args = {
     [4] = "Release",
     [6] = CFrame.new(-2031.69873046875, 66.31632995605469, -2790.242431640625) * CFrame.Angles(-3.141592502593994, 1.084824562072754, 3.141592502593994)
 }
-
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(1)
 local args = {
@@ -53,7 +47,6 @@ local args = {
     [4] = "Release",
     [6] = CFrame.new(-2031.69873046875, 66.31632995605469, -2790.242431640625) * CFrame.Angles(-3.141592502593994, 1.084824562072754, 3.141592502593994)
 }
-
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(1)
 local args = {
@@ -61,21 +54,17 @@ local args = {
     [2] = "Nine Tails Power",
     [3] = Vector3.new(515.1322631835938, 39.22695541381836, -6776.24462890625)
 }
-
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-
 end
 end)
 
 local mod = main:Button("QUEST", function()
 _G.QUEST_enabled = not _G.QUEST_enabled
-
 while _G.QUEST_enabled do
 local args = {
     [1] = "InteractControl",
     [2] = "Quest Giver 37"
 }
-
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(1)
 end
