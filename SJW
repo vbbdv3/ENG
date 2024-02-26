@@ -1,0 +1,57 @@
+while not game:IsLoaded() do
+    wait()
+end
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("GojohUnsealed")
+
+local mod = main:Button("SJW", function()
+_G.RollEvent_enabled = not _G.RollEvent_enabled
+
+while _G.RollEvent_enabled do
+local args = {
+    [1] = "SkillsControl",
+    [2] = "SongJinvoo",
+    [3] = "E",
+    [4] = "Release"
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "SongJinvoo",
+    [3] = "C",
+    [4] = "Release"
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "SongJinvoo",
+    [3] = "T",
+    [4] = "Release"
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Specs",
+    [2] = "Cursed Blue",
+    [3] = Vector3.new(1479.439453125, -0.82536381483078, -1944.95263671875)
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "StatueGod",
+    [3] = "C",
+    [4] = "Release",
+    [6] = CFrame.new(1479.439453125, -0.8253642320632935, -1944.95263671875) * CFrame.Angles(-0, 0, -0)
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+end
+end)
