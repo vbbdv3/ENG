@@ -73,10 +73,18 @@ _G.QUEST_enabled = not _G.QUEST_enabled
 while _G.QUEST_enabled do
 local args = {
     [1] = "InteractControl",
-    [2] = "Quest Giver 26"
+    [2] = "Quest Giver 37"
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(1)
 end
+end)
+
+local mod = main:Button("RENDER TRUE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(true) -- включён
+end)
+
+local mod = main:Button("RENDER FALSE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(false) -- выключен
 end)
