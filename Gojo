@@ -1,6 +1,3 @@
-while not game:IsLoaded() do
-    wait()
-end
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("GojohUnsealed")
 
