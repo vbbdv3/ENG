@@ -81,6 +81,17 @@ wait(1)
 end
 end)
 
+local mod = main:Button("V", function()
+local args = {
+    [1] = "SkillsControl",
+    [2] = "YutoSword (Awakened)",
+    [3] = "V",
+    [4] = "Release",
+    [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+end)
+
 local mod = main:Button("QUEST", function()
 _G.QUEST_enabled = not _G.QUEST_enabled
 
