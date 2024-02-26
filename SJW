@@ -92,13 +92,27 @@ local args = {
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 end)
 
-local mod = main:Button("QUEST", function()
+local mod = main:Button("49", function()
 _G.QUEST_enabled = not _G.QUEST_enabled
 
 while _G.QUEST_enabled do
 local args = {
     [1] = "InteractControl",
     [2] = "Quest Giver 49"
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+end
+end)
+
+local mod = main:Button("43", function()
+_G.QUEST_enabled = not _G.QUEST_enabled
+
+while _G.QUEST_enabled do
+local args = {
+    [1] = "InteractControl",
+    [2] = "Quest Giver 43"
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
