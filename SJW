@@ -16,7 +16,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(1)
+wait(0.2)
 local args = {
     [1] = "SkillsControl",
     [2] = "SongJinvoo",
@@ -25,7 +25,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(1)
+wait(0.2)
 local args = {
     [1] = "SkillsControl",
     [2] = "SongJinvoo",
@@ -34,7 +34,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(1)
+wait(0.2)
 local args = {
     [1] = "Specs",
     [2] = "Cursed Blue",
@@ -42,7 +42,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(1)
+wait(0.2)
 local args = {
     [1] = "SkillsControl",
     [2] = "StatueGod",
@@ -52,6 +52,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(1)
+wait(0.2)
 end
 end)
