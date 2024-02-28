@@ -4,7 +4,16 @@ end
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("GojohUnsealed")
 
-local mod = main:Button("SJW", function()
+local mod = main:Button("TP", function()
+_G.tp_enabled = not _G.tp_enabled
+
+while _G.tp_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2730.22705078125, 58.827796936035156, 1136.6253662109375)
+wait(5)
+end
+end)
+
+local mod = main:Button("START", function()
 _G.RollEvent_enabled = not _G.RollEvent_enabled
 
 while _G.RollEvent_enabled do
