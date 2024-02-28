@@ -37,6 +37,24 @@ game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpac
 wait(1)
 local args = {
     [1] = "SkillsControl",
+    [2] = "YutoSword (Awakened)",
+    [3] = "E",
+    [4] = "Hold"
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "YutoSword (Awakened)",
+    [3] = "E",
+    [4] = "Release",
+    [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "SkillsControl",
     [2] = "Hakaro",
     [3] = "T",
     [4] = "Hold"
@@ -48,6 +66,24 @@ local args = {
     [1] = "SkillsControl",
     [2] = "Hakaro",
     [3] = "T",
+    [4] = "Release",
+    [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "Hakaro",
+    [3] = "E",
+    [4] = "Hold"
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "Hakaro",
+    [3] = "E",
     [4] = "Release",
     [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
 }
