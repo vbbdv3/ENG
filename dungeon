@@ -24,7 +24,7 @@ local mod = main:Button("Boss AIM", function()
 _G.SpecialBoss_enabled = not _G.SpecialBoss_enabled
 while _G.SpecialBoss_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position, game:GetService("Workspace").SpecialBoss.HumanoidRootPart.Position)
-wait(1)
+wait(0.1)
 end
 end)
 
