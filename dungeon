@@ -8,7 +8,11 @@ local mod = main:Button("Effects:Destroy", function()
 game:GetService("Workspace").Effects:Destroy()
 end)
 
-local mod = main:Button("TP ONLY NEW DUNGEON", function()
+local mod = main:Button("TP STATUE DUNGEON", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(830.4098510742188, 39.72695541381836, -7213.7734375)
+end)8378887,
+
+local mod = main:Button("TP SAFE ZONE", function()
 _G.tp_enabled = not _G.tp_enabled
 while _G.tp_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2606.71240234375, 53.71721267700195, 1127.1282958984375)
