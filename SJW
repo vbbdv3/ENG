@@ -60,16 +60,7 @@ local mod = main:Button("TP", function()
 _G.tp_enabled = not _G.tp_enabled
 
 while _G.tp_enabled do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2637.52001953125, -0.0231076180934906, 605.0359497070312)
-wait(5)
-end
-end)
-
-local mod = main:Button("TPUM", function()
-_G.tp_enabled = not _G.tp_enabled
-
-while _G.tp_enabled do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1336.0794677734375, -0.07501468062400818, 1234.9708251953125)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2606.71240234375, 53.71721267700195, 1127.1282958984375)
 wait(5)
 end
 end)
