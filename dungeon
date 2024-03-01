@@ -2,13 +2,13 @@ while not game:IsLoaded() do
     wait()
 end
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
-local main = libary:CreateWindow("GojohUnsealed")
+local main = libary:CreateWindow("AUTO DUNGEON")
 
 local mod = main:Button("Effects:Destroy", function()
 game:GetService("Workspace").Effects:Destroy()
 end)
 
-local mod = main:Button("TP", function()
+local mod = main:Button("TP ONLY NEW DUNGEON", function()
 _G.tp_enabled = not _G.tp_enabled
 while _G.tp_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2606.71240234375, 53.71721267700195, 1127.1282958984375)
