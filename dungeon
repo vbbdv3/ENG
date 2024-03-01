@@ -10,7 +10,7 @@ end)
 
 local mod = main:Button("TP STATUE DUNGEON", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(830.4098510742188, 39.72695541381836, -7213.7734375)
-end)8378887,
+end)
 
 local mod = main:Button("TP SAFE ZONE", function()
 _G.tp_enabled = not _G.tp_enabled
@@ -21,8 +21,8 @@ end
 end)
 
 local mod = main:Button("YUTO", function()
-_G.RollEvent_enabled = not _G.RollEvent_enabled
-while _G.RollEvent_enabled do
+_G.YutoSword_enabled = not _G.YutoSword_enabled
+while _G.YutoSword_enabled do
 local args = {
     [1] = "SkillsControl",
     [2] = "YutoSword (Awakened)",
