@@ -6,62 +6,32 @@ local main = libary:CreateWindow("GojohUnsealed")
 
 local mod = main:Button("TP", function()
 _G.tp_enabled = not _G.tp_enabled
-
 while _G.tp_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2606.71240234375, 53.71721267700195, 1127.1282958984375)
 wait(1)
 end
 end)
 
-local mod = main:Button("START", function()
+local mod = main:Button("YUTO", function()
 _G.RollEvent_enabled = not _G.RollEvent_enabled
-
 while _G.RollEvent_enabled do
 local args = {
     [1] = "SkillsControl",
     [2] = "YutoSword (Awakened)",
     [3] = "T",
-    [4] = "Hold"
-}
-
-game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(0.5)
-local args = {
-    [1] = "SkillsControl",
-    [2] = "YutoSword (Awakened)",
-    [3] = "T",
     [4] = "Release",
     [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(0.5)
-local args = {
-    [1] = "SkillsControl",
-    [2] = "YutoSword (Awakened)",
-    [3] = "E",
-    [4] = "Hold"
-}
+end
+end)
 
-game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(0.5)
-local args = {
-    [1] = "SkillsControl",
-    [2] = "YutoSword (Awakened)",
-    [3] = "E",
-    [4] = "Release",
-    [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
-}
-game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(0.5)
-local args = {
-    [1] = "SkillsControl",
-    [2] = "Hakaro",
-    [3] = "T",
-    [4] = "Hold"
-}
 
-game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(0.5)
+
+local mod = main:Button("Hakaro", function()
+_G.Hakaro_enabled = not _G.Hakaro_enabled
+while _G.Hakaro_enabled do
 local args = {
     [1] = "SkillsControl",
     [2] = "Hakaro",
@@ -69,15 +39,6 @@ local args = {
     [4] = "Release",
     [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
 }
-game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(0.5)
-local args = {
-    [1] = "SkillsControl",
-    [2] = "Hakaro",
-    [3] = "E",
-    [4] = "Hold"
-}
-
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(0.5)
 local args = {
@@ -107,10 +68,18 @@ local args = {
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 wait(0.5)
+end
+end)
+
+local mod = main:Button("StatueGod", function()
+_G.StatueGod_enabled = not _G.StatueGod_enabled
+while _G.StatueGod_enabled do
 local args = {
-    [1] = "Specs",
-    [2] = "Cursed Blue",
-    [3] = Vector3.new(2730.22900390625, 58.83010482788086, 1136.62451171875)
+    [1] = "SkillsControl",
+    [2] = "StatueGod",
+    [3] = "T",
+    [4] = "Release",
+    [6] = CFrame.new(-68.91612243652344, 9.914629936218262, -272.594482421875) * CFrame.Angles(-3.141592502593994, 0.6529346108436584, 3.141592502593994)
 }
 
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
@@ -118,7 +87,21 @@ wait(0.5)
 end
 end)
 
-local mod = main:Button("VY", function()
+local mod = main:Button("Specs", function()
+_G.Specs_enabled = not _G.Specs_enabled
+while _G.Specs_enabled do
+local args = {
+    [1] = "Specs",
+    [2] = "Shadow Dagger Strike",
+    [3] = Vector3.new(-68.91612243652344, 9.914629936218262, -272.594482421875)
+}
+
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(0.5)
+end
+end)
+
+local mod = main:Button("V - YutoSword", function()
 local args = {
     [1] = "SkillsControl",
     [2] = "YutoSword (Awakened)",
@@ -129,13 +112,24 @@ local args = {
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 end)
 
-local mod = main:Button("VH", function()
+local mod = main:Button("V - Hakaro", function()
 local args = {
     [1] = "SkillsControl",
     [2] = "Hakaro",
     [3] = "V",
     [4] = "Release",
     [6] = CFrame.new(-2128.1845703125, 39.99645233154297, 1975.1785888671875) * CFrame.Angles(3.141592502593994, -1.1301807165145874, 3.141592502593994)
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+end)
+
+local mod = main:Button("V - StatueGod", function()
+local args = {
+    [1] = "SkillsControl",
+    [2] = "StatueGod",
+    [3] = "V",
+    [4] = "Release",
+    [6] = CFrame.new(-68.91634368896484, 9.914629936218262, -272.5944519042969) * CFrame.Angles(-3.1415927410125732, 1.0109034776687622, 3.1415927410125732)
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 end)
