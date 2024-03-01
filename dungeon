@@ -4,6 +4,10 @@ end
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("GojohUnsealed")
 
+local mod = main:Button("Effects:Destroy", function()
+game:GetService("Workspace").Effects:Destroy()
+end)
+
 local mod = main:Button("TP", function()
 _G.tp_enabled = not _G.tp_enabled
 while _G.tp_enabled do
