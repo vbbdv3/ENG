@@ -22,3 +22,11 @@ game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpac
 wait(0.5)
 end
 end)
+
+local mod = main:Button("RENDER TRUE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(true) -- включён
+end)
+
+local mod = main:Button("RENDER FALSE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(false) -- выключен
+end)
