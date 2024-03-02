@@ -1,1 +1,10 @@
+while not game:IsLoaded() do
+    wait()
+end
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("AUTO DUNGEON")
+
+local mod = main:Button("Effects:Destroy", function()
+game:GetService("Workspace").Effects:Destroy()
+end)
 
