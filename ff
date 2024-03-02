@@ -8,6 +8,10 @@ local mod = main:Button("Effects:Destroy", function()
 game:GetService("Workspace").Effects:Destroy()
 end)
 
+local mod = main:Button("TP BOSS", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2613.072265625, 11.536811828613281, -1842.753662109375)
+end)
+
 local mod = main:Button("Hakaro", function()
 _G.Hakaro_enabled = not _G.Hakaro_enabled
 while _G.Hakaro_enabled do
