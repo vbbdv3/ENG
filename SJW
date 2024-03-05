@@ -130,7 +130,7 @@ wait(1)
 end
 end)
 
-local mod = main:Button("43", function()
+local mod = main:Button("Quest Giver 52", function()
 _G.QUEST_enabled = not _G.QUEST_enabled
 
 while _G.QUEST_enabled do
