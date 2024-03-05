@@ -51,18 +51,20 @@ wait(1)
 end
 end)
 
-
-local mod = main:Button("GojohUnsealed", function()
-_G.GojohUnsealedc_enabled = not _G.GojohUnsealedc_enabled
-while _G.GojohUnsealedc_enabled do
+local mod = main:Button("GojohUnsealed  V", function()
 local args = {
     [1] = "SkillsControl",
     [2] = "GojohUnsealed",
-    [3] = "C",
-    [4] = "Hold"
+    [3] = "V",
+    [4] = "Release",
+    [6] = CFrame.new(-2031.69873046875, 66.31632995605469, -2790.242431640625) * CFrame.Angles(-3.141592502593994, 1.084824562072754, 3.141592502593994)
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(1)
+end)
+
+local mod = main:Button("GojohUnsealed  C", function()
+_G.GojohUnsealedc_enabled = not _G.GojohUnsealedc_enabled
+while _G.GojohUnsealedc_enabled do
 local args = {
     [1] = "SkillsControl",
     [2] = "GojohUnsealed",
@@ -71,7 +73,7 @@ local args = {
     [6] = CFrame.new(-2031.69873046875, 66.31632995605469, -2790.242431640625) * CFrame.Angles(-3.141592502593994, 1.084824562072754, 3.141592502593994)
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait(1)
+wait(12)
 end
 end)
 
