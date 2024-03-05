@@ -5,6 +5,8 @@ local mod = main:Button("Effects:Destroy", function()
 game:GetService("Workspace").Effects:Destroy()
 end)
 
+game:GetService("Workspace").HellWarrior59.HumanoidRootPart.Anchored = true
+
 local mod = main:Button("ALLSKILL", function()
 _G.ALLSKILL_enabled = not _G.ALLSKILL_enabled
 while _G.ALLSKILL_enabled do
