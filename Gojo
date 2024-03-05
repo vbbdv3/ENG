@@ -6,11 +6,7 @@ game:GetService("Workspace").Effects:Destroy()
 end)
 
 local mod = main:Button("Anchored", function()
-_G.Anchored_enabled = not _G.Anchored_enabled
-while _G.Anchored_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
-wait(0.1)
-end
 end)
 
 local mod = main:Button("Anchored2", function()
