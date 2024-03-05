@@ -1,6 +1,10 @@
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("GojohUnsealed")
 
+local mod = main:Button("Effects:Destroy", function()
+game:GetService("Workspace").Effects:Destroy()
+end)
+
 local mod = main:Button("ALLSKILL", function()
 _G.ALLSKILL_enabled = not _G.ALLSKILL_enabled
 while _G.ALLSKILL_enabled do
