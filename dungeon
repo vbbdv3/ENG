@@ -187,6 +187,24 @@ wait(0.5)
 local args = {
     [1] = "SkillsControl",
     [2] = "CidSword",
+    [3] = "Z",
+    [4] = "Release",
+    [6] = CFrame.new(-1965.391845703125, -4.016149997711182, -9603.234375) * CFrame.Angles(-0, 0, -0)
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(0.5)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "CidSword",
+    [3] = "X",
+    [4] = "Release",
+    [6] = CFrame.new(-1965.391845703125, -4.016149997711182, -9603.234375) * CFrame.Angles(-0, 0, -0)
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(0.5)
+local args = {
+    [1] = "SkillsControl",
+    [2] = "CidSword",
     [3] = "T",
     [4] = "Release",
     [6] = CFrame.new(-1965.391845703125, -4.016149997711182, -9603.234375) * CFrame.Angles(-0, 0, -0)
