@@ -252,6 +252,25 @@ wait(5)
 game:GetService("Players").HellWarrior59.PlayerGui.HUD.Teleporter.Visible = false
 end)
 
+local mod = main:Button("Fishing", function()
+_G.Fishing_enabled = not _G.Fishing_enabled
+while _G.Fishing_enabled do
+local args = {
+    [1] = "Fishing",
+    [2] = "Start"
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "Fishing",
+    [2] = "Caught",
+    [3] = true
+}
+game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
 local mod = main:Button("RENDER TRUE", function()
 game:GetService('RunService'):Set3dRenderingEnabled(true) -- включён
 end)
