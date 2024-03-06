@@ -246,18 +246,15 @@ wait(5)
 game:GetService("Players").HellWarrior59.PlayerGui.HUD.PetUI.Visible = false
 end)
 
-
-local mod = main:Button("FishingSTART", function()
+local mod = main:Button("Fishing", function()
+_G.Fishing_enabled = not _G.Fishing_enabled
+while _G.Fishing_enabled do
 local args = {
     [1] = "Fishing",
     [2] = "Start"
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-end)
-
-local mod = main:Button("Fishing", function()
-_G.Fishing_enabled = not _G.Fishing_enabled
-while _G.Fishing_enabled do
+wait()
 local args = {
     [1] = "Fishing",
     [2] = "Caught",
