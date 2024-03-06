@@ -242,7 +242,7 @@ end)
 
 local mod = main:Button("PetUI", function()
 game:GetService("Players").HellWarrior59.PlayerGui.HUD.PetUI.Visible = true
-wait(5)
+wait(30)
 game:GetService("Players").HellWarrior59.PlayerGui.HUD.PetUI.Visible = false
 end)
 
