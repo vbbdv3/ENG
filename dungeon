@@ -254,14 +254,14 @@ local args = {
     [2] = "Start"
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait()
+wait(0.1)
 local args = {
     [1] = "Fishing",
     [2] = "Caught",
     [3] = true
 }
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
-wait()
+wait(0.1)
 end
 end)
 
