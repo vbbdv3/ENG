@@ -255,12 +255,6 @@ local args = {
 game:GetService("ReplicatedStorage").Game.Remotes.ServerHandler:FireServer(unpack(args))
 end)
 
-local mod = main:Button("PetUI", function()
-game:GetService("Players").HellWarrior59.PlayerGui.HUD.PetUI.Visible = true
-wait(30)
-game:GetService("Players").HellWarrior59.PlayerGui.HUD.PetUI.Visible = false
-end)
-
 local mod = main:Button("Fishing", function()
 _G.Fishing_enabled = not _G.Fishing_enabled
 while _G.Fishing_enabled do
