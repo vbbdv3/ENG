@@ -24,6 +24,10 @@ wait(1)
 end
 end)
 
+local mod = main:Button("Anchored", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+end)
+
 local mod = main:Button("Boss AIM", function()
 _G.SpecialBoss_enabled = not _G.SpecialBoss_enabled
 while _G.SpecialBoss_enabled do
