@@ -42,7 +42,7 @@ while _G.CidSwordX_enabled do
 local args = {
     [1] = "SkillsControl",
     [2] = "CidSword",
-    [3] = "Z",
+    [3] = "C",
     [4] = "Release",
     [6] = CFrame.new(-1965.391845703125, -4.016149997711182, -9603.234375) * CFrame.Angles(-0, 0, -0)
 }
