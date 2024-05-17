@@ -10,8 +10,12 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
 end)
 
-local mod = main:Button("GojohUnsealed  V", function()
-
+local mod = main:Button("Counter", function()
+_G.Bowledc_enabled = not _G.Bowledc_enabled
+while _G.Bowledc_enabled do
+game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.Counter:FireServer()
+wait(0.1)
+end
 end)
 
 local mod = main:Button("BowShoot", function()
