@@ -18,6 +18,14 @@ wait(0.1)
 end
 end)
 
+local mod = main:Button("DualSwords", function()
+_G.DualSwords_enabled = not _G.DualSwords_enabled
+while _G.DualSwords_enabled do
+game:GetService("Players").LocalPlayer.Character.DualSwords.SwordScript.Activate:FireServer()
+wait(0.1)
+end
+end)
+
 local mod = main:Button("BowShoot", function()
 _G.Bowledc_enabled = not _G.Bowledc_enabled
 while _G.Bowledc_enabled do
