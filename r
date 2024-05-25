@@ -32,11 +32,7 @@ end
 end)
 
 local mod = main:Button("HeavenlyRestriction", function()
-_G.HeavenlyRestriction_enabled = not _G.HeavenlyRestriction_enabled
-while _G.HeavenlyRestriction_enabled do
 game:GetService("Players").LocalPlayer.Character.HeavenlyRestriction.ServerScript.EnableA:FireServer()
-wait(5)
-end
 end)
 
 local mod = main:Button("Block", function()
