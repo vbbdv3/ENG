@@ -50,7 +50,7 @@ local args = {
 
 game:GetService("Players").LocalPlayer.PlayerGui.Fish.Ado.catch:FireServer(unpack(args))
 
-wait(1)
+wait(5)
 end
 end)
 
