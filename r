@@ -41,11 +41,24 @@ wait(0.1)
 end
 end)
 
+local mod = main:Button("Fishing", function()
+_G.Fishing_enabled = not _G.Fishing_enabled
+while _G.Fishing_enabled do
+local args = {
+    [1] = workspace.FishingSpawns.Fishing
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Fish.Ado.catch:FireServer(unpack(args))
+
+wait(1)
+end
+end)
+
 local mod = main:Button("Dash", function()
 _G.Dash_enabled = not _G.Dash_enabled
 while _G.Dash_enabled do
 game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.Dash:FireServer()
-wait(0.1)
+wait(1)
 end
 end)
 
