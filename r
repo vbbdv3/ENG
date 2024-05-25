@@ -22,11 +22,20 @@ local mod = main:Button("BowShoot", function()
 _G.Bowledc_enabled = not _G.Bowledc_enabled
 while _G.Bowledc_enabled do
 local args = {
-    [1] = Vector3.new(-547.21240234375, 8.832611083984375, 404.4773254394531),
-    [2] = 21
+    [1] = Vector3.new(-654.9907836914062, 5.291313171386719, 411.4891357421875),
+    [2] = 12
 }
+
 game:GetService("Players").LocalPlayer.Character.Bow.SwordScript.Shoot:FireServer(unpack(args))
 wait(0.1)
+end
+end)
+
+local mod = main:Button("HeavenlyRestriction", function()
+_G.HeavenlyRestriction_enabled = not _G.HeavenlyRestriction_enabled
+while _G.HeavenlyRestriction_enabled do
+game:GetService("Players").LocalPlayer.Character.HeavenlyRestriction.ServerScript.EnableA:FireServer()
+wait(5)
 end
 end)
 
