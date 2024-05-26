@@ -46,6 +46,13 @@ local mod = main:Button("HeavenlyRestriction", function()
 game:GetService("Players").LocalPlayer.Character.HeavenlyRestriction.ServerScript.EnableA:FireServer()
 end)
 
+local mod = main:Button("Eat", function()
+local args = {
+    [1] = "CookedLobster"
+}
+game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.Eat:FireServer(unpack(args))
+end)
+
 local mod = main:Button("Block", function()
 _G.Block_enabled = not _G.Block_enabled
 while _G.Block_enabled do
