@@ -57,6 +57,20 @@ wait(0.1)
 end
 end)
 
+local mod = main:Button("RawLobster", function()
+_G.RawLobster_enabled = not _G.RawLobster_enabled
+while _G.RawLobster_enabled do
+local args = {
+    [1] = "RawLobster"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.CookDish:InvokeServer(unpack(args))
+
+wait(10)
+end
+end)
+
+
 local mod = main:Button("Fishing", function()
 _G.Fishing_enabled = not _G.Fishing_enabled
 while _G.Fishing_enabled do
