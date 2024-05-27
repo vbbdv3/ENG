@@ -50,6 +50,23 @@ wait(0.1)
 end
 end)
 
+local mod = main:Button("ESPER", function()
+_G.CursedHammer_enabled = not _G.CursedHammer_enabled
+while _G.CursedHammer_enabled do
+local args = {
+    [1] = Vector3.new(-543.70361328125, 4.791187286376953, 409.445068359375)
+}
+
+game:GetService("Players").LocalPlayer.Character.Hundred.ServerScript.Charge:FireServer(unpack(args))
+
+wait(0.1)
+end
+end)
+
+local mod = main:Button("CursedHammerRES", function()
+
+end)
+
 local mod = main:Button("HeavenlyRestriction", function()
 game:GetService("Players").LocalPlayer.Character.HeavenlyRestriction.ServerScript.EnableA:FireServer()
 end)
