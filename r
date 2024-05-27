@@ -42,6 +42,14 @@ wait(0.1)
 end
 end)
 
+local mod = main:Button("ProSamurai", function()
+_G.ProSamurai_enabled = not _G.ProSamurai_enabled
+while _G.ProSamurai_enabled do
+game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.ProSamuraiSpec:FireServer()
+wait(0.1)
+end
+end)
+
 local mod = main:Button("HeavenlyRestriction", function()
 game:GetService("Players").LocalPlayer.Character.HeavenlyRestriction.ServerScript.EnableA:FireServer()
 end)
