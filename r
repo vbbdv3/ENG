@@ -29,6 +29,18 @@ wait(0.1)
 end
 end)
 
+local mod = main:Button("Bazooka", function()
+_G.Bazooka_enabled = not _G.Bazooka_enabled
+while _G.Bazooka_enabled do
+local args = {
+    [1] = Vector3.new(-837.376220703125, 7.115766525268555, 503.55438232421875)
+}
+
+game:GetService("Players").LocalPlayer.Character.Bazooka.ServerScript.Throw:FireServer(unpack(args))
+wait(0.5)
+end
+end)
+
 local mod = main:Button("BowShoot", function()
 _G.Bowledc_enabled = not _G.Bowledc_enabled
 while _G.Bowledc_enabled do
