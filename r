@@ -54,10 +54,15 @@ wait(0.1)
 end
 end)
 
-local mod = main:Button("ProSamurai", function()
-_G.ProSamurai_enabled = not _G.ProSamurai_enabled
-while _G.ProSamurai_enabled do
-game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.ProSamuraiSpec:FireServer()
+local mod = main:Button("Zaphkiel", function()
+_G.Zaphkiel_enabled = not _G.Zaphkiel_enabled
+while _G.Zaphkiel_enabled do
+local args = {
+    [1] = Vector3.new(-837.5708618164062, 7.229024887084961, 503.3428649902344)
+}
+
+game:GetService("Players").LocalPlayer.Character.Zaphkiel.ServerScript.Create:FireServer(unpack(args))
+
 wait(0.1)
 end
 end)
