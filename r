@@ -115,7 +115,7 @@ local args = {
 
 game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.CookDish:InvokeServer(unpack(args))
 
-wait(10)
+wait(7)
 end
 end)
 
