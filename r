@@ -137,7 +137,7 @@ local mod = main:Button("Dash", function()
 _G.Dash_enabled = not _G.Dash_enabled
 while _G.Dash_enabled do
 game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.Dash:FireServer()
-wait(1)
+wait(0.1)
 end
 end)
 
