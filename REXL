@@ -1,1 +1,39 @@
+while not game:IsLoaded() do
+    wait()
+end
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("RE: XL (RELEASE)")
 
+local mod = main:Button("Oneshot All Mob", function()
+while task.wait() do 
+ for i,v in pairs(game.Workspace.Live:GetChildren()) do 
+     if v:IsA("Model") and v:FindFirstChild("Humanoid") and v.Humanoid.Health < v.Humanoid.MaxHealth  then 
+         v.Humanoid.RigType = "R15"
+     end 
+    end
+end 
+end)
+
+local mod = main:Button("NukeVsCity", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/Scripts2024/main/projxlrexl"))()
+end)
+
+local mod = main:Button("N3", function()
+
+end)
+
+local mod = main:Button("N3", function()
+_G.Hakaro_enabled = not _G.Hakaro_enabled
+while _G.Hakaro_enabled do
+
+wait(0.5)
+end
+end)
+
+local mod = main:Button("RENDER TRUE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(true) -- включён
+end)
+
+local mod = main:Button("RENDER FALSE", function()
+game:GetService('RunService'):Set3dRenderingEnabled(false) -- выключен
+end)
