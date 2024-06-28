@@ -1,0 +1,17 @@
+_G.Hakaro_enabled = not _G.Hakaro_enabled
+while _G.Hakaro_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.4192504882812, 25.820650100708008, -5032.640625)
+wait(2.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(810.6983032226562, 25.820650100708008, -5068.5908203125)
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(848.27197265625, 24.476390838623047, -5044.830078125)
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(827.59997265625, 24.762390838623047, -4995.750078125)
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(763.507197265625, 24.476390838623047, -4987.407078125)
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(735.11, 24.096390838623047, -5042.800078125)
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(764.19397265625, 24.226390838623047, -5071.880078125)
+wait(0.7)
+end
