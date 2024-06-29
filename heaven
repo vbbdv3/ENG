@@ -68,3 +68,25 @@ wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4825.3515625, 245.7581329345703, 4744.71484375)
 wait(0.6)
 end
+
+_G.Hakaro_enabled = not _G.Hakaro_enabled
+while _G.Hakaro_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(239.12374877929688, 20558.16015625, 431.7611389160156)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(291.6272888183594, 20558.16015625, 415.4371032714844)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278.4276123046875, 20560.3984375, 507.99676513671875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(349.525390625, 20558.162109375, 454.6853942871094)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(348.99114990234375, 20558.158203125, 547.5397338867188)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278.4276123046875, 20560.3984375, 507.99676513671875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278.6220703125, 20558.158203125, 591.0009765625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(232.86216735839844, 20558.158203125, 557.1155395507812)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278.4276123046875, 20560.3984375, 507.99676513671875)
+wait(0.6)
+end
