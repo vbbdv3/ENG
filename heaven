@@ -1,27 +1,34 @@
-
-_G.Hakaro_enabled = not _G.Hakaro_enabled
-while _G.Hakaro_enabled do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.4192504882812, 25.820650100708008, -5032.640625)
-wait(0.6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(810.6983032226562, 25.820650100708008, -5068.5908203125)
-wait(0.6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(848.27197265625, 24.476390838623047, -5044.830078125)
-wait(0.6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(827.59997265625, 24.762390838623047, -4995.750078125)
-wait(0.6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.4192504882812, 25.820650100708008, -5032.640625)
-wait(0.6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(763.507197265625, 24.476390838623047, -4987.407078125)
-wait(0.6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(735.11, 24.096390838623047, -5042.800078125)
-wait(0.6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(764.19397265625, 24.226390838623047, -5071.880078125)
-wait(0.6)
+while not game:IsLoaded() do
+    wait()
 end
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("Anime Hevan")
 
+local mod = main:Button("AFK", function()
+wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,304,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk Kick Script"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,304,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,304,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made By:Ur MOM"
+_b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377379,0)
+ab.Size=UDim2.new(0,304,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Script Started"
+ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end) 
+end)
 
-_G.Hakaro_enabled = not _G.Hakaro_enabled
-while _G.Hakaro_enabled do
+local mod = main:Button("FARM RACE", function()
+_G.race_enabled = not _G.race_enabled
+while _G.race_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3719.603271484375, 15.878463745117188, -485.6921691894531)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3691.14794921875, 13.215489387512207, -555.6327514648438)
@@ -47,10 +54,33 @@ wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3752.7275390625, 12.190515518188477, -792.9468383789062)
 wait(0.6)
 end
+end)
 
+local mod = main:Button("RAID 1", function()
+_G.raidfirst_enabled = not _G.raidfirst_enabled
+while _G.raidfirst_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.4192504882812, 25.820650100708008, -5032.640625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(810.6983032226562, 25.820650100708008, -5068.5908203125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(848.27197265625, 24.476390838623047, -5044.830078125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(827.59997265625, 24.762390838623047, -4995.750078125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.4192504882812, 25.820650100708008, -5032.640625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(763.507197265625, 24.476390838623047, -4987.407078125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(735.11, 24.096390838623047, -5042.800078125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(764.19397265625, 24.226390838623047, -5071.880078125)
+wait(0.6)
+end
+end)
 
-_G.Hakaro_enabled = not _G.Hakaro_enabled
-while _G.Hakaro_enabled do
+local mod = main:Button("RAID 2", function()
+_G.rades_enabled = not _G.rades_enabled
+while _G.rades_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4788.576171875, 245.9598846435547, 4694.0234375)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4818.8212890625, 245.95835876464844, 4646.2392578125)
@@ -68,9 +98,11 @@ wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4825.3515625, 245.7581329345703, 4744.71484375)
 wait(0.6)
 end
+end)
 
-_G.Hakaro_enabled = not _G.Hakaro_enabled
-while _G.Hakaro_enabled do
+local mod = main:Button("DUNT USE", function()
+_G.HEROrd_enabled = not _G.HEROrd_enabled
+while _G.HEROrd_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(239.12374877929688, 20558.16015625, 431.7611389160156)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(291.6272888183594, 20558.16015625, 415.4371032714844)
@@ -90,3 +122,4 @@ wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278.4276123046875, 20560.3984375, 507.99676513671875)
 wait(0.6)
 end
+end)
