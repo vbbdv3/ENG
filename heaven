@@ -15,6 +15,10 @@ getgenv().Settings = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()
 end)
 
+local mod = main:Button("SkyHub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+end)
+
 local mod = main:Button("AFK", function()
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
