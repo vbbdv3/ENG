@@ -18,7 +18,7 @@ local mod = main:Button("AUTO KILL", function()
 _G.raid_enabled = not _G.raid_enabled
 
 local lplr = game.Players.LocalPlayer
-local enemies_folder = workspace.Live
+local enemies_folder = workspace.Client.Enemies.Gamemodes
 local target;
 
 function getClosestEnemy()
