@@ -77,23 +77,14 @@ getgenv().Settings = {
     ["Lock Mouse Position Keybind"] = "B",
     ["Right Click"] = false,
     ["GUI"] = true, -- A drawing gui that tells you what is going on with the autoclicker.
-    ["Delay"] = 5 -- 0 for RenderStepped, other numbers go to regular wait timings.
+    ["Delay"] = 90 -- 0 for RenderStepped, other numbers go to regular wait timings.
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()
 end)
 
 local mod = main:Button("SUMMER", function()
-_G.Hakaro_enabled = not _G.Hakaro_enabled
-while _G.Hakaro_enabled do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1598.455322265625, 18.49935531616211, 191.23977661132812)
-wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1598.455322265625, 18.49935531616211, 191.23977661132812)
-wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1611.1243896484375, 62.43485641479492, 272.40155029296875)
-wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3512.28955078125, 28.201011657714844, 224.41021728515625)
-wait(89)
-end
+wait(1)
 end)
 
 local mod = main:Button("NukeVsCity", function()
