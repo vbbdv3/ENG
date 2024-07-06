@@ -77,7 +77,7 @@ getgenv().Settings = {
     ["Lock Mouse Position Keybind"] = "B",
     ["Right Click"] = false,
     ["GUI"] = true, -- A drawing gui that tells you what is going on with the autoclicker.
-    ["Delay"] = 90 -- 0 for RenderStepped, other numbers go to regular wait timings.
+    ["Delay"] = 5 -- 0 for RenderStepped, other numbers go to regular wait timings.
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()
 end)
