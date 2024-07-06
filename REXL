@@ -4,16 +4,6 @@ end
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("RE: XL (RELEASE)")
 
-local mod = main:Button("Oneshot All Mob", function()
-while task.wait() do 
- for i,v in pairs(game.Workspace.Live:GetChildren()) do 
-     if v:IsA("Model") and v:FindFirstChild("Humanoid") and v.Humanoid.Health < v.Humanoid.MaxHealth  then 
-         v.Humanoid.RigType = "R15"
-     end 
-    end
-end 
-end)
-
 local mod = main:Button("AUTO KILL", function()
 _G.raid_enabled = not _G.raid_enabled
 
@@ -59,14 +49,6 @@ while task.wait() and _G.raid_enabled do
 end
 end)
 
-local mod = main:Button("NukeVsCity", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/Scripts2024/main/projxlrexl"))()
-end)
-
-local mod = main:Button("SkyHub", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
-end)
-
 local mod = main:Button("AFK", function()
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
@@ -87,6 +69,49 @@ ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end) 
+end)
+
+local mod = main:Button("Auto Click", function()
+getgenv().Settings = {
+    ["Auto Click Keybind"] = "V", -- Use an UpperCase letter or KeyCode Enum. Ex: Enum.KeyCode.Semicolon
+    ["Lock Mouse Position Keybind"] = "B",
+    ["Right Click"] = false,
+    ["GUI"] = true, -- A drawing gui that tells you what is going on with the autoclicker.
+    ["Delay"] = 90 -- 0 for RenderStepped, other numbers go to regular wait timings.
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()
+end)
+
+local mod = main:Button("SUMMER", function()
+_G.Hakaro_enabled = not _G.Hakaro_enabled
+while _G.Hakaro_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1598.455322265625, 18.49935531616211, 191.23977661132812)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1598.455322265625, 18.49935531616211, 191.23977661132812)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1611.1243896484375, 62.43485641479492, 272.40155029296875)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3512.28955078125, 28.201011657714844, 224.41021728515625)
+wait(89)
+end
+end)
+
+local mod = main:Button("NukeVsCity", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/Scripts2024/main/projxlrexl"))()
+end)
+
+local mod = main:Button("SkyHub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+end)
+
+local mod = main:Button("Oneshot All Mob", function()
+while task.wait() do 
+ for i,v in pairs(game.Workspace.Live:GetChildren()) do 
+     if v:IsA("Model") and v:FindFirstChild("Humanoid") and v.Humanoid.Health < v.Humanoid.MaxHealth  then 
+         v.Humanoid.RigType = "R15"
+     end 
+    end
+end 
 end)
 
 local mod = main:Button("FARM", function()
