@@ -75,6 +75,28 @@ wait(0.6)
 end
 end)
 
+local mod = main:Button("FARM RACE", function()
+_G.race_enabled = not _G.race_enabled
+while _G.race_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4455.7451171875, 101.9350357055664, 3571.255859375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4475.46875, 100.71128845214844, 3630.170654296875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4514.53662109375, 100.71137237548828, 3644.0517578125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4491.7919921875, 100.71124267578125, 3556.916015625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4410.8720703125, 102.92828369140625, 3540.7734375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4366.77294921875, 102.7393798828125, 3534.12158203125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4392.30322265625, 102.73941802978516, 3601.028564453125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4423.9208984375, 102.73951721191406, 3605.03466796875)
+wait(0.6)
+end
+end)
+
 local mod = main:Button("CURSED MAP FARM", function()
 _G.raidfirst_enabled = not _G.raidfirst_enabled
 while _G.raidfirst_enabled do
