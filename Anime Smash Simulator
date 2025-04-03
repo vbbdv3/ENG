@@ -2,7 +2,7 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 local win = DiscordLib:Window("discord library")
 local serv = win:Server("Anime Smash Simulator", "")
 local btns = serv:Channel("Buttons")
-btns:Button("Elf Raid (Join every 180s)", function()
+btns:Button("Elf Raid (Join every 180s) Farm (ON/OFF)", function()
 _G.start_enabled = not _G.start_enabled
 while _G.start_enabled do
 local args = {
@@ -37,7 +37,7 @@ btns:Button("Anti Lags (Delete drop GEMS)", function()
 workspace._DEBRIS:Destroy()
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-btns:Button("Dack Clover", function()
+btns:Button("Dack Clover Farm (ON/OFF)", function()
 _G.Dark_enabled = not _G.Dark_enabled
 while _G.Dark_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(69.90955352783203, 124.53156280517578, 524.6137084960938)
@@ -75,7 +75,7 @@ wait(0.6)
 end
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-btns:Button("Blearch", function()
+btns:Button("Blearch Farm (ON/OFF)", function()
 _G.Blearsh_enabled = not _G.Blearsh_enabled
 while _G.Blearsh_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8315.408203125, 49.2724609375, 22908.6875)
@@ -107,7 +107,7 @@ wait(0.6)
 end
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-btns:Button("Dragon Boru", function()
+btns:Button("Dragon Boru Farm (ON/OFF)", function()
 _G.Boru_enabled = not _G.Boru_enabled
 while _G.Boru_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7176.634765625, 35.72832489013672, -3795.6083984375)
