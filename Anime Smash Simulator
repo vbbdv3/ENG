@@ -33,8 +33,8 @@ wait(1)
 end
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-btns:Button("Dack Clover no Lags (Delete drop GEMS)", function()
-workspace.Client.Maps["Dack Clover"].Drops:Destroy()
+btns:Button("Anti Lags (Delete drop GEMS)", function()
+workspace._DEBRIS:Destroy()
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Dack Clover", function()
@@ -75,10 +75,6 @@ wait(0.6)
 end
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-btns:Button("Blearch no Lags (Delete drop GEMS)", function()
-workspace.Client.Maps["Blearch"].Drops:Destroy()
-end)
- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Blearch", function()
 _G.Blearsh_enabled = not _G.Blearsh_enabled
 while _G.Blearsh_enabled do
@@ -109,10 +105,6 @@ wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8318.7041015625, 74.643798828125, 22845.923828125)
 wait(0.6)
 end
-end)
- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-btns:Button("Dragon Boru no Lags (Delete drop GEMS)", function()
-workspace.Client.Maps["Dragon Boru"].Drops:Destroy()
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Dragon Boru", function()
