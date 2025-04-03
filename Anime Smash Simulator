@@ -1,12 +1,7 @@
-
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
-
 local win = DiscordLib:Window("discord library")
-
 local serv = win:Server("Anime Smash Simulator", "")
-
 local btns = serv:Channel("Buttons")
-
 btns:Button("Elf Raid (Join every 180s)", function()
 _G.start_enabled = not _G.start_enabled
 while _G.start_enabled do
@@ -21,11 +16,7 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1576.9306640625, 52.544715881347656, 1138.5238037109375)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1576.9306640625, 52.544715881347656, 1138.5238037109375)
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 wait(180) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1555.444580078125, 52.459598541259766, 1324.4322509765625)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1555.444580078125, 52.459598541259766, 1324.4322509765625)
@@ -41,7 +32,7 @@ game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
 wait(1)
 end
 end)
-
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Dack Clover", function()
 _G.Dark_enabled = not _G.Dark_enabled
 while _G.Dark_enabled do
@@ -53,7 +44,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(65.73493
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3.443288803100586, 124.53156280517578, 568.2208862304688)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.848518371582031, 124.53156280517578, 507.871337890625)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(35.2647590637207, 124.53156280517578, 482.8589782714844)
@@ -62,7 +52,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(75.05876
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-80.43919372558594, 113.25147247314453, 366.445068359375)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.64710998535156, 113.25147247314453, 330.0784606933594)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.64710998535156, 113.25147247314453, 330.0784606933594)
@@ -71,7 +60,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-82.2670
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-180.3955841064453, 113.25148010253906, 252.0841064453125)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-187.75634765625, 113.25148010253906, 283.983642578125)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-126.03375244140625, 113.25147247314453, 285.8711853027344)
@@ -82,7 +70,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-94.0515
 wait(0.6)
 end
 end)
-
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Blearsh", function()
 _G.Blearsh_enabled = not _G.Blearsh_enabled
 while _G.Blearsh_enabled do
@@ -94,7 +82,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8350.130
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8367.4912109375, 49.272464752197266, 22911.552734375)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8384.3994140625, 49.272464752197266, 22871.884765625)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8415.703125, 49.272464752197266, 22844.498046875)
@@ -103,7 +90,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8409.660
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8390.4150390625, 49.272464752197266, 22817.57421875)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8330.279296875, 49.272464752197266, 22783.212890625)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8330.90625, 49.272464752197266, 22760.310546875)
@@ -112,12 +98,11 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8291.864
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8301.01953125, 49.272464752197266, 22802.482421875)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8318.7041015625, 74.643798828125, 22845.923828125)
 wait(0.6)
 end
 end)
-
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Dragon Boru", function()
 _G.Boru_enabled = not _G.Boru_enabled
 while _G.Boru_enabled do
@@ -129,7 +114,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7141.308
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7125.0322265625, 35.72832489013672, -3751.605224609375)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7155.4169921875, 35.72832489013672, -3673.119384765625)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7202.54931640625, 35.72832489013672, -3833.821533203125)
@@ -138,7 +122,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7179.127
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7173.34033203125, 52.36781311035156, -3936.1083984375)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7212.71142578125, 52.36781311035156, -3898.056640625)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7136.40478515625, 35.72832489013672, -3930.83740234375)
@@ -147,7 +130,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7132.442
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7097.5498046875, 35.72832489013672, -3900.030517578125)
 wait(0.6)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7097.27490234375, 35.72832489013672, -3846.7158203125)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6941.12060546875, 50.01712417602539, -3833.94189453125)
@@ -158,11 +140,11 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6920.675
 wait(0.6)
 end
 end)
-
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("x25 Zone", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3821.71728515625, 59.981651306152344, 728.5508422851562)
 end)
-
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("ANTI AFK", function()
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
@@ -183,4 +165,4 @@ ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end) 
- end)
+end)
