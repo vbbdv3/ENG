@@ -1,3 +1,13 @@
+
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("discord library")
+
+local serv = win:Server("Anime Smash Simulator", "")
+
+local btns = serv:Channel("Buttons")
+
+btns:Button("Elf Raid (Join every 180s)", function()
 _G.start_enabled = not _G.start_enabled
 while _G.start_enabled do
 local args = {
@@ -30,3 +40,147 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
 wait(1)
 end
+end)
+
+btns:Button("Dack Clover", function()
+_G.Dark_enabled = not _G.Dark_enabled
+while _G.Dark_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(69.90955352783203, 124.53156280517578, 524.6137084960938)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(49.52383041381836, 124.53156280517578, 565.9994506835938)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(65.73493957519531, 131.15000915527344, 594.8229370117188)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3.443288803100586, 124.53156280517578, 568.2208862304688)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.848518371582031, 124.53156280517578, 507.871337890625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(35.2647590637207, 124.53156280517578, 482.8589782714844)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(75.05876922607422, 124.53156280517578, 469.1100158691406)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-80.43919372558594, 113.25147247314453, 366.445068359375)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.64710998535156, 113.25147247314453, 330.0784606933594)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.64710998535156, 113.25147247314453, 330.0784606933594)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-82.26705169677734, 113.25147247314453, 284.0135498046875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-180.3955841064453, 113.25148010253906, 252.0841064453125)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-187.75634765625, 113.25148010253906, 283.983642578125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-126.03375244140625, 113.25147247314453, 285.8711853027344)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-147.0335693359375, 113.25147247314453, 236.4303436279297)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-94.05150604248047, 113.25147247314453, 237.44497680664062)
+wait(0.6)
+end
+end)
+
+btns:Button("Blearsh", function()
+_G.Blearsh_enabled = not _G.Blearsh_enabled
+while _G.Blearsh_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8315.408203125, 49.2724609375, 22908.6875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8339.3388671875, 49.272464752197266, 22913.71484375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8350.130859375, 49.272464752197266, 22890.3984375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8367.4912109375, 49.272464752197266, 22911.552734375)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8384.3994140625, 49.272464752197266, 22871.884765625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8415.703125, 49.272464752197266, 22844.498046875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8409.66015625, 49.2724609375, 22814.5625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8390.4150390625, 49.272464752197266, 22817.57421875)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8330.279296875, 49.272464752197266, 22783.212890625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8330.90625, 49.272464752197266, 22760.310546875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8291.8642578125, 49.272464752197266, 22782.98828125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8301.01953125, 49.272464752197266, 22802.482421875)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8318.7041015625, 74.643798828125, 22845.923828125)
+wait(0.6)
+end
+end)
+
+btns:Button("Dragon Boru", function()
+_G.Boru_enabled = not _G.Boru_enabled
+while _G.Boru_enabled do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7176.634765625, 35.72832489013672, -3795.6083984375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7212.0302734375, 35.72832489013672, -3768.5146484375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7141.30859375, 35.72832489013672, -3783.555419921875)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7125.0322265625, 35.72832489013672, -3751.605224609375)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7155.4169921875, 35.72832489013672, -3673.119384765625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7202.54931640625, 35.72832489013672, -3833.821533203125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7179.1279296875, 35.72832489013672, -3881.439453125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7173.34033203125, 52.36781311035156, -3936.1083984375)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7212.71142578125, 52.36781311035156, -3898.056640625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7136.40478515625, 35.72832489013672, -3930.83740234375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7132.44287109375, 35.72832489013672, -3863.6015625)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7097.5498046875, 35.72832489013672, -3900.030517578125)
+wait(0.6)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7097.27490234375, 35.72832489013672, -3846.7158203125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6941.12060546875, 50.01712417602539, -3833.94189453125)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6992.09619140625, 35.72832489013672, -3834.5224609375)
+wait(0.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6920.67578125, 66.24845123291016, -3878.660888671875)
+wait(0.6)
+end
+end)
+
+btns:Button("x25 Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3821.71728515625, 59.981651306152344, 728.5508422851562)
+end)
+
+btns:Button("ANTI AFK", function()
+wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,304,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk Kick Script"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,304,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,304,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made By:Ur MOM"
+_b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377379,0)
+ab.Size=UDim2.new(0,304,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Script Started"
+ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end) 
+ end)
