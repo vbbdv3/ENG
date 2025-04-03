@@ -33,6 +33,10 @@ wait(1)
 end
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+btns:Button("Dack Clover no Lags (Delete drop GEMS)", function()
+workspace.Client.Maps["Dack Clover"].Drops:Destroy()
+end)
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Dack Clover", function()
 _G.Dark_enabled = not _G.Dark_enabled
 while _G.Dark_enabled do
@@ -71,7 +75,11 @@ wait(0.6)
 end
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-btns:Button("Blearsh", function()
+btns:Button("Blearch no Lags (Delete drop GEMS)", function()
+workspace.Client.Maps["Blearch"].Drops:Destroy()
+end)
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+btns:Button("Blearch", function()
 _G.Blearsh_enabled = not _G.Blearsh_enabled
 while _G.Blearsh_enabled do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8315.408203125, 49.2724609375, 22908.6875)
@@ -101,6 +109,10 @@ wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8318.7041015625, 74.643798828125, 22845.923828125)
 wait(0.6)
 end
+end)
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+btns:Button("Dragon Boru no Lags (Delete drop GEMS)", function()
+workspace.Client.Maps["Dragon Boru"].Drops:Destroy()
 end)
  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 btns:Button("Dragon Boru", function()
