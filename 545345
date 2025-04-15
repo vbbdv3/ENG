@@ -219,6 +219,6 @@ _G.AttackClick_enabled = not _G.AttackClick_enabled
 while _G.AttackClick_enabled do
 game:GetService("ReplicatedStorage").Remotes.EnemyRemotes.AttackClick:InvokeServer()
 
-wait(0.5)
+wait(0.1)
 end
 end)
