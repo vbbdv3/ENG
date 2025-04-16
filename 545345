@@ -173,21 +173,6 @@ end
 coroutine.wrap(ZFFOR_fake_script)()
 end)
 
-btns:Button("FuseHeroes", function()
-_G.FuseHeroes_enabled = not _G.FuseHeroes_enabled
-while _G.FuseHeroes_enabled do
-local args = {
-    [1] = 3,
-    [2] = {
-        [1] = 4,
-[2] = 5,
-    }
-}
-game:GetService("ReplicatedStorage").Remotes.InventoryRemotes.FuseHeroes:FireServer(unpack(args))
-wait(0.1)
-end
-end)
-
 btns:Button("AttackClick", function()
 _G.AttackClick_enabled = not _G.AttackClick_enabled
 while _G.AttackClick_enabled do
