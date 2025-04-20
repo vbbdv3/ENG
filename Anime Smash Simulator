@@ -65,7 +65,7 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2249.44189453125, 28.74321746826172, 2763.844970703125)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2249.44189453125, 28.74321746826172, 2763.844970703125)
-- теперь за фруктом
+-- теперь за фруктом
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2491.80615234375, 40.325191497802734, 3399.89208984375)
 wait(1)
