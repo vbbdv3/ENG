@@ -2,7 +2,7 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 local win = DiscordLib:Window("discord library")
 local serv = win:Server("Anime Smash Simulator", "")
 local btns = serv:Channel("Buttons")
-btns:Button("RAID + QUIRKS + FRUIT (Join every 90s) Farm (ON/OFF)", function()
+btns:Button("RAID + QUIRKS + FRUIT (Join every 110s) Farm (ON/OFF)", function()
 _G.RAIDstart_enabled = not _G.RAIDstart_enabled
 while _G.RAIDstart_enabled do
 local args = {
