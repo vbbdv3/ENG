@@ -1,0 +1,151 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("discord library")
+local serv = win:Server("Anime Smash Simulator", "")
+local btns = serv:Channel("Buttons")
+btns:Button("RAID + QUIRKS + FRUIT (Join every 110s) Farm (ON/OFF)", function()
+_G.RAIDstart_enabled = not _G.RAIDstart_enabled
+while _G.RAIDstart_enabled do
+local args = {
+    [1] = {
+        [1] = "Yggdrasil Raid",
+        [2] = "Create"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = {
+        [1] = "Yggdrasil Raid",
+        [2] = "Difficulty",
+        [3] = "Easy"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = {
+        [1] = "Yggdrasil Raid",
+        [2] = "Start"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14912.541015625, 235.68797302246094, 19163.244140625)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14912.541015625, 235.68797302246094, 19163.244140625)
+wait(110) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14893.4755859375, 235.54002380371094, 18979.939453125)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14893.4755859375, 235.54002380371094, 18979.939453125)
+wait(2)
+local args = {
+    [1] = {
+        [1] = "TeleportZone",
+        [2] = "Teleport",
+        [3] = "Boku Academy"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+-- теперь за квирком
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12916.78125, 221.82623291015625, 15632.439453125)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12916.78125, 221.82623291015625, 15632.439453125)
+wait(2)
+local args = {
+    [1] = {
+        [1] = "TeleportZone",
+        [2] = "Teleport",
+        [3] = "Boku Academy"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2249.44189453125, 28.74321746826172, 2763.844970703125)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2249.44189453125, 28.74321746826172, 2763.844970703125)
+-- теперь за фруктом
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2491.80615234375, 40.325191497802734, 3399.89208984375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2491.80615234375, 40.325191497802734, 3399.89208984375)
+wait(2)
+local args = {
+    [1] = {
+        [1] = "TeleportZone",
+        [2] = "Teleport",
+        [3] = "Enies Town"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2368.361328125, 126.32689666748047, -2228.1630859375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2368.361328125, 126.32689666748047, -2228.1630859375)
+wait(1)
+end
+end)
+
+btns:Button("Elf Raid (Join every 180s) Farm (ON/OFF)", function()
+_G.Elf_enabled = not _G.Elf_enabled
+while _G.Elf_enabled do
+local args = {
+    [1] = {
+        [1] = "Elf Raid",
+        [2] = "Start"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1576.9306640625, 52.544715881347656, 1138.5238037109375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1576.9306640625, 52.544715881347656, 1138.5238037109375)
+wait(180) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- далее нужно выйти из рейда и зайти в другие локи
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1555.444580078125, 52.459598541259766, 1324.4322509765625)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1555.444580078125, 52.459598541259766, 1324.4322509765625)
+wait(1)
+local args = {
+    [1] = {
+        [1] = "TeleportZone",
+        [2] = "Teleport",
+        [3] = "Leveling City"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+end
+end)
+
+
+
+
+
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+btns:Button("ANTI AFK", function()
+wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,304,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk Kick Script"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,304,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,304,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made By:Ur MOM"
+_b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377379,0)
+ab.Size=UDim2.new(0,304,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Script Started"
+ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end) 
+end)
+
+btns:Button("Best Auto Clicker", function()
+loadstring(game:HttpGetAsync('https://pastebin.com/raw/WgkcDYUs'))()
+end)
