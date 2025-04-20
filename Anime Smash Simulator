@@ -33,7 +33,7 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14912.541015625, 235.68797302246094, 19163.244140625)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14912.541015625, 235.68797302246094, 19163.244140625)
-wait(90) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+wait(110) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14893.4755859375, 235.54002380371094, 18979.939453125)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14893.4755859375, 235.54002380371094, 18979.939453125)
