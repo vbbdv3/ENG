@@ -2,7 +2,7 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 local win = DiscordLib:Window("discord library")
 local serv = win:Server("Anime Smash Simulator", "")
 local btns = serv:Channel("Buttons")
-btns:Button("RAID + QUIRKS + FRUIT (Join every 180s) Farm (ON/OFF)", function()
+btns:Button("RAID + QUIRKS + FRUIT (Join every 90s) Farm (ON/OFF)", function()
 _G.RAIDstart_enabled = not _G.RAIDstart_enabled
 while _G.RAIDstart_enabled do
 local args = {
@@ -33,7 +33,7 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14912.541015625, 235.68797302246094, 19163.244140625)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14912.541015625, 235.68797302246094, 19163.244140625)
-wait(180) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+wait(90) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14893.4755859375, 235.54002380371094, 18979.939453125)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14893.4755859375, 235.54002380371094, 18979.939453125)
@@ -83,25 +83,7 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2368.361328125, 126.32689666748047, -2228.1630859375)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2368.361328125, 126.32689666748047, -2228.1630859375)
--- обратно в рейд
 wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2358.181396484375, 9.48348331451416, -671.7542724609375)
-wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2358.181396484375, 9.48348331451416, -671.7542724609375)
-wait(2)
-local args = {
-    [1] = {
-        [1] = "TeleportZone",
-        [2] = "Teleport",
-        [3] = "Reign Lords"
-    }
-}
-game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
-wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12854.3095703125, 219.48837280273438, 15850.70703125)
-wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12854.3095703125, 219.48837280273438, 15850.70703125)
-wait(2)
 end
 end)
 
