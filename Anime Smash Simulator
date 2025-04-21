@@ -3,8 +3,8 @@ local win = DiscordLib:Window("discord library")
 local serv = win:Server("Anime Smash Simulator", "")
 local btns = serv:Channel("Buttons")
 btns:Button("RAID + QUIRKS + FRUIT (Join every 110s) Farm (ON/OFF)", function()
-_G.RAIDstart_enabled = not _G.RAIDstart_enabled
-while _G.RAIDstart_enabled do
+_G.RAID_enabled = not _G.RAID_enabled
+while _G.RAID_enabled do
 local args = {
     [1] = {
         [1] = "Yggdrasil Raid",
@@ -87,9 +87,94 @@ wait(1)
 end
 end)
 
+btns:Button("EASTER RAID + QUIRKS + FRUIT (Join every 60s) Farm (ON/OFF)", function()
+_G.RAID_enabled = not _G.RAID_enabled
+while _G.RAID_enabled do
+local args = {
+    [1] = {
+        [1] = "Yggdrasil Raid",
+        [2] = "Create"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = {
+        [1] = "Yggdrasil Raid",
+        [2] = "Difficulty",
+        [3] = "Easter"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = {
+        [1] = "Yggdrasil Raid",
+        [2] = "Start"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(22989.365234375, 235.68865966796875, 19029.078125)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(22989.365234375, 235.68865966796875, 19029.078125)
+wait(60) -- ВРЕМЯ РЕЙДА В СЕКУНДАХ!!! -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(23102.44140625, 235.5395050048828, 19215.98046875)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(23102.44140625, 235.5395050048828, 19215.98046875)
+wait(2)
+local args = {
+    [1] = {
+        [1] = "TeleportZone",
+        [2] = "Teleport",
+        [3] = "Boku Academy"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+-- теперь за квирком
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12916.78125, 221.82623291015625, 15632.439453125)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12916.78125, 221.82623291015625, 15632.439453125)
+wait(2)
+local args = {
+    [1] = {
+        [1] = "TeleportZone",
+        [2] = "Teleport",
+        [3] = "Boku Academy"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2249.44189453125, 28.74321746826172, 2763.844970703125)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2249.44189453125, 28.74321746826172, 2763.844970703125)
+-- теперь за фруктом
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2491.80615234375, 40.325191497802734, 3399.89208984375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2491.80615234375, 40.325191497802734, 3399.89208984375)
+wait(2)
+local args = {
+    [1] = {
+        [1] = "TeleportZone",
+        [2] = "Teleport",
+        [3] = "Enies Town"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2368.361328125, 126.32689666748047, -2228.1630859375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2368.361328125, 126.32689666748047, -2228.1630859375)
+wait(1)
+end
+end)
+
 btns:Button("Elf Raid (Join every 180s) Farm (ON/OFF)", function()
-_G.Elf_enabled = not _G.Elf_enabled
-while _G.Elf_enabled do
+_G.RAID_enabled = not _G.RAID_enabled
+while _G.RAID_enabled do
 local args = {
     [1] = {
         [1] = "Elf Raid",
